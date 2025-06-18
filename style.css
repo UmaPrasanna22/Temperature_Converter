@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end; /* 👈 Move content to the right */
+    align-items: center;
+    padding-right: 280px; /* 👈 Control how far right it goes */
+  }
+  
+  
+  
+  .converter {
+    background: #938d8b;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-left: 80px;  /* 👈 This moves it to the right */
+  }
+  
+  
+  .converter:hover {
+    transform: scale(1.02);
+  }
+  
+  .converter h2 {
+    margin-bottom: 25px;
+    color: #0a0505;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #151313;
+    font-weight: 500;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #070707;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  
